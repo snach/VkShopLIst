@@ -1,5 +1,7 @@
 package com.vkshoplist.sfilatov96.vkshoplist;
 
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,6 +10,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -49,7 +52,8 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     RecyclerView recyclerView;
-    private List<Person> persons;
+    RVAdapter adapter;
+    private ArrayList<Person> persons;
     public final String ONLINE="online";
     public final String OFFLINE="offline";
 
@@ -94,6 +98,14 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        recyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override public void onItemClick(View view, int position) {
+                        Toast.makeText(MainActivity.this, "dfsdg"+ position, Toast.LENGTH_LONG ).show();
+                    }
+                })
+        );
+
     }
 
     @Override
@@ -110,6 +122,27 @@ public class MainActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) searchItem.getActionView();
+
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        if(null!=searchManager ) {
+            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        }
+        searchView.setIconifiedByDefault(false);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                //Toast.makeText(getApplicationContext(),query, Toast.LENGTH_SHORT).show();
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                adapter.filter(newText);
+                return false;
+            }
+        });
         return true;
     }
 
@@ -122,9 +155,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -203,13 +234,13 @@ public class MainActivity extends AppCompatActivity
         persons = new ArrayList<>();
         for(VKApiUser u: users){
             if(u.online){
-                persons.add(new Person(u.first_name, u.last_name, ONLINE, u.photo_200));
+                persons.add(new Person(u.toString(), ONLINE, u.photo_200));
             } else {
-                persons.add(new Person(u.first_name, u.last_name, OFFLINE, u.photo_200));
+                persons.add(new Person(u.toString(),  OFFLINE, u.photo_200));
             }
 
         }
-        RVAdapter adapter = new RVAdapter(this, persons);
+        adapter = new RVAdapter(this, persons);
         recyclerView.setAdapter(adapter);
 
     }

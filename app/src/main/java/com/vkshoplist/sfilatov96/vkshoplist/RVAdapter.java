@@ -20,12 +20,16 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> {
     Bitmap bitmap;
     Context context;
     public final String ONLINE="online";
+    ArrayList<Person> mDataSet;
+    ArrayList<Person> persons;
     public static class PersonViewHolder extends RecyclerView.ViewHolder {
 
         CardView cv;
@@ -43,10 +47,11 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
         }
     }
 
-    List<Person> persons;
 
-    RVAdapter(Context context, List<Person> persons){
+
+    RVAdapter(Context context, ArrayList<Person> persons){
         this.persons = persons;
+        mDataSet = this.persons;
         this.context = context;
     }
 
@@ -64,8 +69,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
 
     @Override
     public void onBindViewHolder(PersonViewHolder personViewHolder, int i) {
-        personViewHolder.name.setText(String.format("%s %s", persons.get(i).first_name,
-                persons.get(i).last_name));
+        personViewHolder.name.setText(persons.get(i).name);
         personViewHolder.is_online.setText(persons.get(i).is_online);
         if(persons.get(i).is_online == ONLINE){
             personViewHolder.is_online.setTextColor(Color.GREEN);
@@ -82,27 +86,26 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
         return persons.size();
     }
 
-    public  Bitmap getBitmapFromURL(String src) {
-        new DownloadImageTask().execute(src);
-        return bitmap;
-    }
-    private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
+    public void filter(String charText){
+        charText = charText.toLowerCase(Locale.getDefault());
+        persons = new ArrayList<>();
+        if(charText.length() == 0){
+            persons.addAll(mDataSet);
 
-        Bitmap image = null;
-        protected Bitmap doInBackground(String... urls) {
-            String urldisplay = urls[0];
-            try {
-                InputStream in = new java.net.URL(urldisplay).openStream();
-                image = BitmapFactory.decodeStream(in);
-            } catch (Exception e) {
-                Log.e("Error", e.getMessage());
-                e.printStackTrace();
+        }
+        else {
+            for(Person item: mDataSet){
+                if(item.name.toLowerCase(Locale.getDefault()).contains(charText.toLowerCase())){
+                    persons.add(item);
+
+                }
             }
-            return null;
         }
+        notifyDataSetChanged();
 
-        protected void onPostExecute(Bitmap result) {
-            bitmap = image;
-        }
     }
+    public void getOnline(){}
+
+
+
 }

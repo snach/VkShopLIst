@@ -4,39 +4,34 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="22171745748080" >
+    timestamp="18746955952526" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="138" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="10" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
 
-    <build timestamp="20610865206826" >
+    <build timestamp="15462504343391" >
         <artifact
             location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="21912034692906" >
+    <build timestamp="18746955952526" >
         <artifact
             location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
             type="DEX" />
-    </build>
-    <build timestamp="22171745748080" >
-        <artifact
-            location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

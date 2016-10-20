@@ -30,7 +30,7 @@
                 android:id="@+id/person_name"
                 android:layout_toRightOf="@+id/person_photo"
                 android:layout_alignParentTop="true"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 />
             <TextView
                 android:layout_width="wrap_content"
