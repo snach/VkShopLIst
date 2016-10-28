@@ -1,2 +1,11 @@
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$1$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$2$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$5$override.class
 CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/RVAdapter$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$6$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$7$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$4$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/MainActivity$3$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/VkApplication$1$override.class
+CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/VkApplication$override.class

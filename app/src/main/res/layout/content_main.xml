@@ -7,7 +7,7 @@
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
     android:paddingTop="10dp"
-    tools:context="com.vkshoplist.sfilatov96.vkshoplist.SignInActivity">
+    tools:context="com.vkshoplist.sfilatov96.vkshoplist.MainActivity">
 
 
     <android.support.v7.widget.RecyclerView

@@ -17,8 +17,10 @@ public class Person {
     String name;
     String is_online;
     String avater;
+    int id;
 
-    Person(String name, String is_online, String avatar) {
+    Person(String name, String is_online, String avatar, int id) {
+        this.id = id;
         this.name = name;
         this.is_online = is_online;
         this.avater = avatar;

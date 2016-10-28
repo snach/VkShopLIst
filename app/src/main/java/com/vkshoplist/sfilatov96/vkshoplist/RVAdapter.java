@@ -72,9 +72,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
         personViewHolder.name.setText(persons.get(i).name);
         personViewHolder.is_online.setText(persons.get(i).is_online);
         if(persons.get(i).is_online == ONLINE){
-            personViewHolder.is_online.setTextColor(Color.GREEN);
+            personViewHolder.is_online.setTextColor(context.getResources().getColor(R.color.online));
         } else {
-            personViewHolder.is_online.setTextColor(Color.RED);
+            personViewHolder.is_online.setText("");
         }
         //Log.d("context",getC)
         Picasso.with(context).load(persons.get(i).avater).transform(new CircularTransformation(100)).placeholder(R.drawable.user_placeholder).into(personViewHolder.personPhoto);
@@ -84,6 +84,12 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
     @Override
     public int getItemCount() {
         return persons.size();
+    }
+
+    public int getIdByPosition(int pos){
+        Person p = persons.get(pos);
+        return p.id;
+
     }
 
     public void filter(String charText){

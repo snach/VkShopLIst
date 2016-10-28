@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "120858174479",
+    "project_id": "vkshoplist"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120858174479:android:8dc0aeeb50259ebe",
+        "android_client_info": {
+          "package_name": "com.vkshoplist.sfilatov96.vkshoplist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUeu4FZgX3iPjL-BJOwQDulEeKcpoXXhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-86415959-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

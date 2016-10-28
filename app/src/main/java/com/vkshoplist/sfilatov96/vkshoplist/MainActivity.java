@@ -25,6 +25,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.flurry.android.FlurryAgent;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.squareup.picasso.Picasso;
 import com.vk.sdk.VKAccessToken;
 import com.vk.sdk.VKCallback;
@@ -53,9 +56,11 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     RecyclerView recyclerView;
     RVAdapter adapter;
+    Tracker mTracker;
     private ArrayList<Person> persons;
     public final String ONLINE="online";
     public final String OFFLINE="offline";
+    public final String VKUSERID="VkUserId";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +80,16 @@ public class MainActivity extends AppCompatActivity
         recyclerView = (RecyclerView)findViewById(R.id.rv);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(llm);
+        recyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(MainActivity.this, new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override public void onItemClick(View view, int position) {
+                        int id = adapter.getIdByPosition(position);
+                        Intent intent = new Intent(MainActivity.this, CreateListActivty.class);
+                        intent.putExtra(VKUSERID,id);
+                        startActivity(intent);
+                    }
+                })
+        );
 
 
         Log.d("tag","oncreate");
@@ -83,8 +98,10 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                mTracker.send(new HitBuilders.EventBuilder().setCategory("main_content_activity").setAction("fab_clicked").build());
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                FlurryAgent.logEvent("fab_clicked");
                 recyclerView.smoothScrollToPosition(0);
             }
         });
@@ -97,14 +114,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        VkApplication application = (VkApplication) getApplication();
+        mTracker = application.getDefaultTracker();
 
-        recyclerView.addOnItemTouchListener(
-                new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
-                    @Override public void onItemClick(View view, int position) {
-                        Toast.makeText(MainActivity.this, "dfsdg"+ position, Toast.LENGTH_LONG ).show();
-                    }
-                })
-        );
+
 
     }
 
@@ -116,6 +129,12 @@ public class MainActivity extends AppCompatActivity
         } else {
             super.onBackPressed();
         }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FlurryAgent.onStartSession(this);
     }
 
     @Override
@@ -143,6 +162,7 @@ public class MainActivity extends AppCompatActivity
                 return false;
             }
         });
+        //searchView.setQuery("lal",true);
         return true;
     }
 
@@ -207,7 +227,7 @@ public class MainActivity extends AppCompatActivity
 
     }
     private void findFriends() {
-        final VKRequest request = VKApi.friends().get(VKParameters.from(VKApiConst.FIELDS, "photo_200"));
+        final VKRequest request = VKApi.friends().get(VKParameters.from(VKApiConst.FIELDS, "photo_200,order"));
 
         request.executeWithListener(new VKRequest.VKRequestListener() {
             @Override
@@ -229,14 +249,23 @@ public class MainActivity extends AppCompatActivity
         });
 
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        //mTracker.setScreenName("Image~" + "VkShopList");
+        //mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
+    }
+
     private void parseUser(VKResponse response){
         VKList<VKApiUser> users  = ((VKList<VKApiUser>) response.parsedModel);
         persons = new ArrayList<>();
         for(VKApiUser u: users){
             if(u.online){
-                persons.add(new Person(u.toString(), ONLINE, u.photo_200));
+                persons.add(new Person(u.toString(), ONLINE, u.photo_200, u.id));
             } else {
-                persons.add(new Person(u.toString(),  OFFLINE, u.photo_200));
+                persons.add(new Person(u.toString(),  OFFLINE, u.photo_200, u.id));
             }
 
         }
@@ -328,5 +357,11 @@ public class MainActivity extends AppCompatActivity
         }
         //}
 
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        FlurryAgent.onEndSession(this);
     }
 }

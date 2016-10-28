@@ -1,7 +1,7 @@
 [
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/vk_share_dialog.xml",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.vk/androidsdk/1.6.7/res/layout/vk_share_dialog.xml"
+        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.vk/androidsdk/1.6.5/res/layout/vk_share_dialog.xml"
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
@@ -56,12 +56,12 @@
         "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout/design_menu_item_action_area.xml"
-    },
-    {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
@@ -93,7 +93,7 @@
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/vk_captcha_dialog.xml",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.vk/androidsdk/1.6.7/res/layout/vk_captcha_dialog.xml"
+        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.vk/androidsdk/1.6.5/res/layout/vk_captcha_dialog.xml"
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -125,7 +125,7 @@
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/vk_open_auth_dialog.xml",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.vk/androidsdk/1.6.7/res/layout/vk_open_auth_dialog.xml"
+        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.vk/androidsdk/1.6.5/res/layout/vk_open_auth_dialog.xml"
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
@@ -218,6 +218,10 @@
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
         "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/activity_create_list_activty.xml",
+        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/layout/activity_create_list_activty.xml"
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",

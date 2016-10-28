@@ -4,6 +4,9 @@ import android.app.Application;
 import android.content.Intent;
 import android.util.Log;
 
+import com.flurry.android.FlurryAgent;
+import com.google.android.gms.analytics.GoogleAnalytics;
+import com.google.android.gms.analytics.Tracker;
 import com.vk.sdk.VKAccessToken;
 import com.vk.sdk.VKAccessTokenTracker;
 import com.vk.sdk.VKScope;
@@ -13,6 +16,8 @@ import com.vk.sdk.VKSdk;
  * Created by sfilatov96 on 12.10.16.
  */
 public class VkApplication extends android.app.Application {
+    private Tracker mtracker;
+
     VKAccessTokenTracker vkAccessTokenTracker = new VKAccessTokenTracker() {
         @Override
         public void onVKAccessTokenChanged(VKAccessToken oldToken, VKAccessToken newToken) {
@@ -31,6 +36,14 @@ public class VkApplication extends android.app.Application {
         vkAccessTokenTracker.startTracking();
         VKSdk.initialize(this);
         Log.d(TAG, "Завелось");
+        FlurryAgent.init(this, "KXDYVPNBW8F4VFQB96X9");
 
+    }
+    synchronized public Tracker getDefaultTracker() {
+        if(mtracker == null) {
+            GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
+            mtracker = analytics.newTracker(R.xml.global_tracker);
+        }
+        return mtracker;
     }
 }
