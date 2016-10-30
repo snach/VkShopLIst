@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="values">
+        <item>килограмм</item>
+        <item>грамм</item>
+        <item>пачка</item>
+        <item>упаковка</item>
+        <item>пакет</item>
+        <item>бутылка</item>
+        <item>штука</item>
+    </string-array>
+</resources>

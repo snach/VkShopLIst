@@ -54,7 +54,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    RecyclerView recyclerView;
+    private RecyclerView recyclerView;
     RVAdapter adapter;
     Tracker mTracker;
     private ArrayList<Person> persons;
@@ -83,9 +83,12 @@ public class MainActivity extends AppCompatActivity
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(MainActivity.this, new RecyclerItemClickListener.OnItemClickListener() {
                     @Override public void onItemClick(View view, int position) {
-                        int id = adapter.getIdByPosition(position);
+                        Person person = adapter.getIdByPosition(position);
                         Intent intent = new Intent(MainActivity.this, CreateListActivty.class);
-                        intent.putExtra(VKUSERID,id);
+                        String id = String.valueOf(person.id);
+                        intent.putExtra("id",id);
+                        intent.putExtra("name",person.name);
+                        intent.putExtra("avatar",person.avater);
                         startActivity(intent);
                     }
                 })
@@ -189,6 +192,9 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+            List<TableShopListClass> allContacts = TableShopListClass.listAll(TableShopListClass.class);
+            TableShopListClass.deleteAll(TableShopListClass.class);
+
 
         } else if (id == R.id.nav_slideshow) {
 
@@ -351,7 +357,7 @@ public class MainActivity extends AppCompatActivity
         try {
             profile_name.setText(userProfile.getString("first_name") + " " + userProfile.getString("last_name"));
             profile_email.setText(userProfile.getString("screen_name"));
-            Picasso.with(this).load(userProfile.getString("photo_200")).transform(new CircularTransformation(100)).placeholder(R.drawable.user_placeholder).into(profile_photo);
+            Picasso.with(this).load(userProfile.getString("photo_200")).transform(new CircularTransformation(200)).placeholder(R.drawable.user_placeholder).into(profile_photo);
         } catch (JSONException e) {
             e.printStackTrace();
         }

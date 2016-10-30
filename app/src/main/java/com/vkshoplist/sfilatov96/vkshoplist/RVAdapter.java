@@ -86,9 +86,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
         return persons.size();
     }
 
-    public int getIdByPosition(int pos){
+    public Person getIdByPosition(int pos){
         Person p = persons.get(pos);
-        return p.id;
+        return p;
 
     }
 

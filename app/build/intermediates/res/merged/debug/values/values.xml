@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="values">
+        <item>килограмм</item>
+        <item>грамм</item>
+        <item>пачка</item>
+        <item>упаковка</item>
+        <item>пакет</item>
+        <item>бутылка</item>
+        <item>штука</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -31,7 +40,7 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#FFEE58</color>
+    <color name="colorAccent">#FFFFBB33</color>
     <color name="colorPrimary">#00695C</color>
     <color name="colorPrimaryDark">#004D40</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
@@ -371,11 +380,14 @@
     <string name="action_settings">Settings</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
+    <string name="add">Добавить</string>
     <string name="app_name">VkShopList</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_error">Ошибка авторизации</string>
     <string name="auth_success">Поздравляем вы успешно авторизованы</string>
+    <string name="blank">Пустой Список</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cancel">Отмена</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
@@ -412,10 +424,18 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
-    <string name="ga_trackingId">UA-86415959-1</string>
-    <string name="gcm_defaultSenderId">120858174479</string>
+    <string name="fields_empty">Не все поля формы заполнены</string>
+    <string name="find_friend">Найти Друга</string>
+    <string name="ga_trackingId" translatable="false">UA-86415959-1</string>
+    <string name="gcm_defaultSenderId" translatable="false">120858174479</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUeu4FZgX3iPjL-BJOwQDulEeKcpoXXhc</string>
+    <string name="google_app_id" translatable="false">1:120858174479:android:8dc0aeeb50259ebe</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUeu4FZgX3iPjL-BJOwQDulEeKcpoXXhc</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_many_to_buy">Сколько купить?</string>
     <string name="inbox_lists">Входящие Списки</string>
+    <string name="internet_access_error">Ошибка подключения к интернет, пожалуйста, попробуйте ещё раз отправить</string>
+    <string name="list_empty">Список пуст, отправлять нечего!</string>
     <string name="logout">Выйти</string>
     <string name="my_friends">Мои Друзья</string>
     <string name="my_friends_online">Онлайн</string>
@@ -430,8 +450,11 @@
     <string name="prompt_password">Password (optional)</string>
     <string name="samples">Черновики</string>
     <string name="search_menu_title">Search</string>
+    <string name="send_button">Отправить</string>
+    <string name="send_success">Список успешно отправлен!</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_shoplist">Название списка</string>
     <string name="vk_enter_captcha_text">Enter captcha text here</string>
     <string name="vk_name">VK</string>
     <string name="vk_new_message_text">Enter your message..</string>
@@ -439,6 +462,7 @@
     <string name="vk_retry">Retry</string>
     <string name="vk_send">SEND</string>
     <string name="vk_share">Share</string>
+    <string name="what_to_buy">Что купить?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -447,7 +471,7 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -1484,6 +1508,9 @@
     </style>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

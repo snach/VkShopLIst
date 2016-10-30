@@ -1,11 +1,19 @@
 [
     {
+        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_add_white_24dp.png",
+        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-xhdpi/ic_add_white_24dp.png"
+    },
+    {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_search_black_24dp.png",
         "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-xhdpi/ic_search_black_24dp.png"
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
         "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_send_white_24dp.png",
+        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-xhdpi/ic_send_white_24dp.png"
     },
     {
         "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_search_white_24dp.png",

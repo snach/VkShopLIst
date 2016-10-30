@@ -4,49 +4,29 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="9245840385088"
-    verifier="DEPENDENCY_CHANGED" >
+    timestamp="49023859681849" >
 
     <task
         name="javac"
-        duration="786" />
+        duration="110" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="215" />
+        duration="11" />
     <task
         name="verifier"
-        duration="20" />
+        duration="0" />
 
     <artifact
-        location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.2.0_db4949c1ffd3b86a8d4f7fe293fd4a3fdee8945f/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-        type="DEX" />
+        location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="7903813573252" >
+    <build timestamp="49023859681849" >
         <artifact
             location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="9245840385088"
-        verifier="DEPENDENCY_CHANGED" >
-        <artifact
-            location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.2.0_db4949c1ffd3b86a8d4f7fe293fd4a3fdee8945f/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

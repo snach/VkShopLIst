@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/home/sfilatov96/.gradle/caches/modules-2/files-2.1/com.flurry.android/analytics/6.2.0/17799012e156e1c27b300a8b490f5d2c7dcece3f/analytics-6.2.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="17799012e156e1c27b300a8b490f5d2c7dcece3f">
-        <dex dex="/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.2.0_db4949c1ffd3b86a8d4f7fe293fd4a3fdee8945f/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />
