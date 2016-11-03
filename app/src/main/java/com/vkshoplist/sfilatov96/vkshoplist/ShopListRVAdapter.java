@@ -23,6 +23,8 @@ public class ShopListRVAdapter extends RecyclerView.Adapter<ShopListRVAdapter.Pe
     public final String ONLINE="online";
     ArrayList<ShopListItem> mDataSet;
     ArrayList<ShopListItem> shopListItems;
+    private final static String TAG = ShopListRVAdapter.class.getSimpleName();
+
     public static class PersonViewHolder extends RecyclerView.ViewHolder {
 
         CardView cv;

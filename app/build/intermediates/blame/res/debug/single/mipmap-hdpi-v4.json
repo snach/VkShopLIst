@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_search_black_24dp.png",
+        "source": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/src/main/res/mipmap-hdpi/ic_search_black_24dp.png"
     },
     {
-        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_search_white_24dp.png",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-hdpi/ic_search_white_24dp.png"
+        "merged": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_search_white_24dp.png",
+        "source": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/src/main/res/mipmap-hdpi/ic_search_white_24dp.png"
     },
     {
-        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_search_black_24dp.png",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-hdpi/ic_search_black_24dp.png"
+        "merged": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_add_white_24dp.png",
+        "source": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/src/main/res/mipmap-hdpi/ic_add_white_24dp.png"
     },
     {
-        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_add_white_24dp.png",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-hdpi/ic_add_white_24dp.png"
+        "merged": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_send_white_24dp.png",
+        "source": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/src/main/res/mipmap-hdpi/ic_send_white_24dp.png"
     },
     {
-        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_send_white_24dp.png",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/src/main/res/mipmap-hdpi/ic_send_white_24dp.png"
+        "merged": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

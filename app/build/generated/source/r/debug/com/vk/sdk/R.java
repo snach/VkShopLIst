@@ -8,18 +8,18 @@ package com.vk.sdk;
 
 public final class R {
 	public static final class color {
-		public static final int vk_black = 0x7f0e005c;
-		public static final int vk_black_pressed = 0x7f0e005d;
-		public static final int vk_clear = 0x7f0e005e;
-		public static final int vk_color = 0x7f0e005f;
-		public static final int vk_grey_color = 0x7f0e0060;
-		public static final int vk_light_color = 0x7f0e0061;
-		public static final int vk_share_blue_color = 0x7f0e0062;
-		public static final int vk_share_gray_line = 0x7f0e0063;
-		public static final int vk_share_link_color = 0x7f0e0064;
-		public static final int vk_share_link_title_color = 0x7f0e0065;
-		public static final int vk_share_top_blue_color = 0x7f0e0066;
-		public static final int vk_white = 0x7f0e0067;
+		public static final int vk_black = 0x7f0e005d;
+		public static final int vk_black_pressed = 0x7f0e005e;
+		public static final int vk_clear = 0x7f0e005f;
+		public static final int vk_color = 0x7f0e0060;
+		public static final int vk_grey_color = 0x7f0e0061;
+		public static final int vk_light_color = 0x7f0e0062;
+		public static final int vk_share_blue_color = 0x7f0e0063;
+		public static final int vk_share_gray_line = 0x7f0e0064;
+		public static final int vk_share_link_color = 0x7f0e0065;
+		public static final int vk_share_link_title_color = 0x7f0e0066;
+		public static final int vk_share_top_blue_color = 0x7f0e0067;
+		public static final int vk_white = 0x7f0e0068;
 	}
 	public static final class dimen {
 		public static final int vk_share_dialog_padding = 0x7f09007f;
@@ -46,24 +46,24 @@ public final class R {
 		public static final int vk_share_send_button_background = 0x7f02008a;
 	}
 	public static final class id {
-		public static final int attachmentLinkLayout = 0x7f0f00b3;
-		public static final int captchaAnswer = 0x7f0f00a8;
-		public static final int captcha_container = 0x7f0f00a5;
-		public static final int copyUrl = 0x7f0f00aa;
-		public static final int imageView = 0x7f0f00a7;
-		public static final int imagesContainer = 0x7f0f00b2;
-		public static final int imagesScrollView = 0x7f0f00b1;
-		public static final int linkHost = 0x7f0f00b5;
-		public static final int linkTitle = 0x7f0f00b4;
-		public static final int postContentLayout = 0x7f0f00af;
-		public static final int postSettingsLayout = 0x7f0f00b6;
-		public static final int progress = 0x7f0f00a9;
-		public static final int progressBar = 0x7f0f00a6;
-		public static final int sendButton = 0x7f0f00ae;
-		public static final int sendButtonLayout = 0x7f0f00ac;
-		public static final int sendProgress = 0x7f0f00ad;
-		public static final int shareText = 0x7f0f00b0;
-		public static final int topBarLayout = 0x7f0f00ab;
+		public static final int attachmentLinkLayout = 0x7f0f00c9;
+		public static final int captchaAnswer = 0x7f0f00be;
+		public static final int captcha_container = 0x7f0f00bb;
+		public static final int copyUrl = 0x7f0f00c0;
+		public static final int imageView = 0x7f0f00bd;
+		public static final int imagesContainer = 0x7f0f00c8;
+		public static final int imagesScrollView = 0x7f0f00c7;
+		public static final int linkHost = 0x7f0f00cb;
+		public static final int linkTitle = 0x7f0f00ca;
+		public static final int postContentLayout = 0x7f0f00c5;
+		public static final int postSettingsLayout = 0x7f0f00cc;
+		public static final int progress = 0x7f0f00bf;
+		public static final int progressBar = 0x7f0f00bc;
+		public static final int sendButton = 0x7f0f00c4;
+		public static final int sendButtonLayout = 0x7f0f00c2;
+		public static final int sendProgress = 0x7f0f00c3;
+		public static final int shareText = 0x7f0f00c6;
+		public static final int topBarLayout = 0x7f0f00c1;
 	}
 	public static final class layout {
 		public static final int vk_captcha_dialog = 0x7f04003e;

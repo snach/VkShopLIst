@@ -1,2 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0ae4dc803705594d159e8512a28e1a2593c52e72">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a7e8fbce760b415d9d2d67cc2007add16ec9aa30/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_cf062cd0b77e1c0209ba34443de8cf16563992fc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_e02270b0c43a1a07686aed6773a1b0a231188645/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="373cd65725af2781d100ddc193c7d3f14464a774">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.0.0_ccd1b893ed9b31c2f3a1a0d6c3ff685630a2c08c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_a005e550d1b607e89a7faa1cf13e34c052a8944a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.2_5c377f6670d23337fb0573c2420bf0839d1fe046/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_0712a70ad94d5887257e97ed2b363187c2e8e6e8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_81d9336bcf0d26760dce1ecb45f2134b921a2400/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_36048e6ddb02391237b50e96d5c57128c36e7ae7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_6fb742145965fff00f1615e986a51d28dcf3779b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_9d94fc09ecc6240fb0d89d635a7f18c5e39cedb3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_62107c5f779be6b440cb3cb85a602b5bdebdba06/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_68420685a1f8887ba4f2b9b78c33b75016f11b27/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_19ca5ff235ebd513766a315b7b63fd6a05c584df/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_b377742252f7f93837d74e5e344dec6de45c6ff8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_36e27213d72c87b5c52acfeb95be208df49d35f0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_3cf006c0a96c575d55593833c808f4b00b10818a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.vk/androidsdk/1.6.5/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4096d6d003cfb330375ab5dad117c861368e239e">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.vk-androidsdk-1.6.5_03078f71fcee35131769b22da745c3f27511945c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4431efe5d0f67fab36a698dde725946b33a6bf4a">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.0.0_c75a0de6db1722046287b47c0beb6125b200097d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_fcc7c0314983708cb590b6082ce6e1e2e4355a3c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_2be8dea52f2f2d237faf277d6440aa1446e5dc0e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_2e66af3ec2b2fdce6cb3758f6f785ac1c6b9783a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_994a411d25de40dcd3028dfbaca84e3e20615b35/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_080270af44b9f4805ac1670c88d215587eb67c8f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8112491100ed9245bbb828801ce6725e538cc1ae">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e9e94c5399e0c92f1cb833e2168e36cfddc21864/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/.gradle/caches/modules-2/files-2.1/com.flurry.android/analytics/6.2.0/17799012e156e1c27b300a8b490f5d2c7dcece3f/analytics-6.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="17799012e156e1c27b300a8b490f5d2c7dcece3f">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.2.0_2a9eec0f5adf55574c3f1242f112a36d652f980b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.2_cf7892473c915070127a93180c750cab275d1441/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ba034298a4a1f7a7a8e815b0458387fb8acb5063/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao/3.2.0/e70040568b2929b8e5869ad1ffca8e4386dc53bc/greendao-3.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/greendao-3.2.0_1f8069365db23ceec83cb46369044ad314a6c46f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.0_09582e66e223089b55571e30b2d42381ca7a83f7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b8bedab61b3b5238cd9a07d3b04449d7fecdbc3b">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.0.0_eacf62ae35b0ba41a58e04d03bdeee1381d6f342/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_eb005b29fad7b8d32c63c338808e62ff67528ebd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.4/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.satyan-sugar-1.4_f0faa9fcb9840536110c434072bce0d59e62d48d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_e5a3302fa7acddfe7d236d6ca0f36e9a0faf881c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-18.0_8827980515fe80a41bbfa131d2de0a80a7fbb2ee/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-api/3.2.0/c6d610abe1d75d758431c9234917a349abc0a0ac/greendao-api-3.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/greendao-api-3.2.0_697f67bf47a5ca0f2c05f3c2fafa37ebba8c6f93/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.2_56368c076785323539e25180ca272b4f9e670047/classes.dex" />
+    </item>
+
+</items>

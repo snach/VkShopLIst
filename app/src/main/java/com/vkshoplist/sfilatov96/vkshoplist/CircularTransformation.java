@@ -23,6 +23,9 @@ public class CircularTransformation implements Transformation {
         this.mRadius = radius;
     }
 
+    private final static String TAG = CircularTransformation.class.getSimpleName();
+
+
     @Override
     public Bitmap transform(Bitmap source) {
         Bitmap output = Bitmap.createBitmap(source.getWidth(), source.getHeight(),

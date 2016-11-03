@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/values-ta/values-ta.xml",
+        "outputFile": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/values-ta/values-ta.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 362
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 329,
+                        "startOffset": 323,
                         "endColumn": 261,
-                        "endOffset": 586
+                        "endOffset": 580
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 489
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 591,
+                        "startOffset": 585,
                         "endColumn": 126,
-                        "endOffset": 713
+                        "endOffset": 707
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 673
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 718,
+                        "startOffset": 712,
                         "endColumn": 183,
-                        "endOffset": 897
+                        "endOffset": 891
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 802
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 902,
+                        "startOffset": 896,
                         "endColumn": 128,
-                        "endOffset": 1026
+                        "endOffset": 1020
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 931
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 1031,
+                        "startOffset": 1025,
                         "endColumn": 128,
-                        "endOffset": 1155
+                        "endOffset": 1149
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 1156
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1160,
+                        "startOffset": 1154,
                         "endColumn": 224,
-                        "endOffset": 1380
+                        "endOffset": 1374
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 1386
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1385,
+                        "startOffset": 1379,
                         "endColumn": 229,
-                        "endOffset": 1610
+                        "endOffset": 1604
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 1516
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1615,
+                        "startOffset": 1609,
                         "endColumn": 129,
-                        "endOffset": 1740
+                        "endOffset": 1734
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 1702
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1745,
+                        "startOffset": 1739,
                         "endColumn": 185,
-                        "endOffset": 1926
+                        "endOffset": 1920
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 1823
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1931,
+                        "startOffset": 1925,
                         "endColumn": 120,
-                        "endOffset": 2047
+                        "endOffset": 2041
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 1978
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 2052,
+                        "startOffset": 2046,
                         "endColumn": 154,
-                        "endOffset": 2202
+                        "endOffset": 2196
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 2095
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 2207,
+                        "startOffset": 2201,
                         "endColumn": 116,
-                        "endOffset": 2319
+                        "endOffset": 2313
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 2225
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 2324,
+                        "startOffset": 2318,
                         "endColumn": 129,
-                        "endOffset": 2449
+                        "endOffset": 2443
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 2407
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 2454,
+                        "startOffset": 2448,
                         "endColumn": 181,
-                        "endOffset": 2631
+                        "endOffset": 2625
                     }
                 }
             },
@@ -277,13 +277,13 @@
                     "endOffset": 2560
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 2636,
+                        "startOffset": 2630,
                         "endColumn": 152,
-                        "endOffset": 2784
+                        "endOffset": 2778
                     }
                 }
             },
@@ -296,13 +296,13 @@
                     "endOffset": 2741
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 2789,
+                        "startOffset": 2783,
                         "endColumn": 180,
-                        "endOffset": 2965
+                        "endOffset": 2959
                     }
                 }
             },
@@ -315,13 +315,13 @@
                     "endOffset": 2882
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2970,
+                        "startOffset": 2964,
                         "endColumn": 140,
-                        "endOffset": 3106
+                        "endOffset": 3100
                     }
                 }
             },
@@ -334,13 +334,13 @@
                     "endOffset": 3061
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 3111,
+                        "startOffset": 3105,
                         "endColumn": 178,
-                        "endOffset": 3285
+                        "endOffset": 3279
                     }
                 }
             },
@@ -353,13 +353,13 @@
                     "endOffset": 3185
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 3290,
+                        "startOffset": 3284,
                         "endColumn": 123,
-                        "endOffset": 3409
+                        "endOffset": 3403
                     }
                 }
             },
@@ -372,13 +372,13 @@
                     "endOffset": 3423
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 331,
+                        "startOffset": 323,
                         "endColumn": 237,
-                        "endOffset": 564
+                        "endOffset": 556
                     }
                 }
             },
@@ -391,13 +391,13 @@
                     "endOffset": 3655
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 3414,
+                        "startOffset": 3408,
                         "endColumn": 231,
-                        "endOffset": 3641
+                        "endOffset": 3635
                     }
                 }
             },
@@ -410,13 +410,13 @@
                     "endOffset": 3778
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 3646,
+                        "startOffset": 3640,
                         "endColumn": 122,
-                        "endOffset": 3764
+                        "endOffset": 3758
                     }
                 }
             },
@@ -429,13 +429,13 @@
                     "endOffset": 3887
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 3769,
+                        "startOffset": 3763,
                         "endColumn": 108,
-                        "endOffset": 3873
+                        "endOffset": 3867
                     }
                 }
             },
@@ -448,13 +448,13 @@
                     "endOffset": 4071
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 3878,
+                        "startOffset": 3872,
                         "endColumn": 183,
-                        "endOffset": 4057
+                        "endOffset": 4051
                     }
                 }
             },
@@ -467,13 +467,13 @@
                     "endOffset": 4208
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 4062,
+                        "startOffset": 4056,
                         "endColumn": 136,
-                        "endOffset": 4194
+                        "endOffset": 4188
                     }
                 }
             },
@@ -486,13 +486,13 @@
                     "endOffset": 4421
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 4199,
+                        "startOffset": 4193,
                         "endColumn": 212,
-                        "endOffset": 4407
+                        "endOffset": 4401
                     }
                 }
             },
@@ -505,13 +505,13 @@
                     "endOffset": 4560
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 4412,
+                        "startOffset": 4406,
                         "endColumn": 138,
-                        "endOffset": 4546
+                        "endOffset": 4540
                     }
                 }
             },
@@ -524,13 +524,13 @@
                     "endOffset": 4746
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 4551,
+                        "startOffset": 4545,
                         "endColumn": 185,
-                        "endOffset": 4732
+                        "endOffset": 4726
                     }
                 }
             },
@@ -543,13 +543,13 @@
                     "endOffset": 4838
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 4737,
+                        "startOffset": 4731,
                         "endColumn": 91,
-                        "endOffset": 4824
+                        "endOffset": 4818
                     }
                 }
             },
@@ -562,13 +562,13 @@
                     "endOffset": 4931
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 4829,
+                        "startOffset": 4823,
                         "endColumn": 92,
-                        "endOffset": 4917
+                        "endOffset": 4911
                     }
                 }
             },
@@ -581,13 +581,13 @@
                     "endOffset": 5041
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/res/values-ta/values.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-ta/values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
-                        "startOffset": 4922,
+                        "startOffset": 4916,
                         "endColumn": 109,
-                        "endOffset": 5027
+                        "endOffset": 5021
                     }
                 }
             }

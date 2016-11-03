@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +18,8 @@ import android.widget.TextView;
  */
 public class TitleShopListDialog extends DialogFragment {
     View view;
+    private final static String TAG = TitleShopListDialog.class.getSimpleName();
+
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -50,11 +53,14 @@ public class TitleShopListDialog extends DialogFragment {
                 @Override
                 public void onClick(View v) {
                     EditText title_input = (EditText) view.findViewById(R.id.title_input);
+
                     if( title_input.getText().toString().isEmpty()){
                         ((CreateListActivty)getActivity()).emptyFields();
+                        Log.d(TAG,"created list's title is empty");
 
                     } else {
                         ((CreateListActivty) getActivity()).GetShopListTitle(title_input.getText().toString());
+                        Log.d(TAG,"created list's title: " + title_input.getText().toString());
                         TitleShopListDialog.this.getDialog().dismiss();
                     }
                 }

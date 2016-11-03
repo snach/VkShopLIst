@@ -18,6 +18,8 @@ public class Person {
     String is_online;
     String avater;
     int id;
+    private final static String TAG = Person.class.getSimpleName();
+
 
     Person(String name, String is_online, String avatar, int id) {
         this.id = id;

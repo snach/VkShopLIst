@@ -30,6 +30,8 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
     public final String ONLINE="online";
     ArrayList<Person> mDataSet;
     ArrayList<Person> persons;
+    private final static String TAG = RVAdapter.class.getSimpleName();
+
     public static class PersonViewHolder extends RecyclerView.ViewHolder {
 
         CardView cv;

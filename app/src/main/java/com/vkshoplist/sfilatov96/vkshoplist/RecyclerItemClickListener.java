@@ -11,6 +11,8 @@ import android.view.View;
 
 public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListener {
     private OnItemClickListener mListener;
+    private final static String TAG = RecyclerItemClickListener.class.getSimpleName();
+
 
     public interface OnItemClickListener {
         public void onItemClick(View view, int position);

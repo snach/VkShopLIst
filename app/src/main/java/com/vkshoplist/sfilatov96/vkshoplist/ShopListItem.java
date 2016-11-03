@@ -8,6 +8,8 @@ public class ShopListItem {
     String quantity;
     String value;
     String listTitle;
+    private final static String TAG = ShopListItem.class.getSimpleName();
+
 
 
     ShopListItem(String name, String quantity,  String value, String listTitle) {

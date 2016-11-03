@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/values-h720dp-v13/values-h720dp-v13.xml",
+        "outputFile": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/values-h720dp-v13/values-h720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "file": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

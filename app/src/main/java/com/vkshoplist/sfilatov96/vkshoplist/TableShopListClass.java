@@ -12,6 +12,8 @@ public class TableShopListClass extends SugarRecord {
     String quantity;
     String value;
     String listTitle;
+    private final static String TAG = TableShopListClass.class.getSimpleName();
+
     public TableShopListClass(){
     }
     public TableShopListClass(ShopListItem shopListItem) {

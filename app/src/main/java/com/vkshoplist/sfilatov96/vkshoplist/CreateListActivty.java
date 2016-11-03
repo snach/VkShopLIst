@@ -54,6 +54,8 @@ public class CreateListActivty extends AppCompatActivity {
     private ItemTouchHelper itemTouchHelper;
     String user;
     private RecyclerView recyclerView;
+    private final static String TAG = CreateListActivty.class.getSimpleName();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +63,7 @@ public class CreateListActivty extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_list_activty);
+        Log.d(TAG, "onCreate");
         setTitle(null);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -84,6 +87,7 @@ public class CreateListActivty extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 showAddItemDialog();
+
             }
         });
         ShopList = new ArrayList<>();
@@ -150,6 +154,7 @@ public class CreateListActivty extends AppCompatActivity {
                 .load(userAvatar)
                 .transform(new CircularTransformation(80))
                 .into(toolbarPhoto);
+        Log.d(TAG,"list will send to { id: " + userId + ", userName: " + userName + "}" );
     }
 
     public void emptyFields() {
@@ -178,6 +183,8 @@ public class CreateListActivty extends AppCompatActivity {
     public void FillShopList(String name, String quantity, String value) {
 
         ShopList.add(new ShopListItem(name, quantity, value, shopListTitle));
+        Log.d(TAG,"add item in " + shopListTitle +" ShopList: { name: " + name + ", quantity: "
+                + quantity + ", value: " + value + "}" );
 
 
     }
@@ -185,6 +192,7 @@ public class CreateListActivty extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        Log.d(TAG, "onResume");
 
 
     }
@@ -193,6 +201,7 @@ public class CreateListActivty extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         this.finish();
+        Log.d(TAG, "onBackPressed");
     }
     ItemTouchHelper.SimpleCallback simpleCallbackItemTouchHelper = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP | ItemTouchHelper.DOWN, ItemTouchHelper.RIGHT ){
 
@@ -207,12 +216,15 @@ public class CreateListActivty extends AppCompatActivity {
         public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
             int position = viewHolder.getAdapterPosition();
 
-
+            Log.d(TAG,"remove item in " + ShopList.get(position).listTitle + " ShopList: { name: " + ShopList.get(position).name + "}" );
             List<TableShopListClass> item = TableShopListClass.find(TableShopListClass.class, "name = ? and list_title = ?", ShopList.get(position).name, ShopList.get(position).listTitle);
             if(!item.isEmpty()) {
                 item.get(0).delete();
+
             }
+
             ShopList.remove(position);
+
             adapter.notifyDataSetChanged();
         }
     };
@@ -233,7 +245,7 @@ public class CreateListActivty extends AppCompatActivity {
                     jsonObject.put("list_title",s.listTitle);
 
                 } catch (JSONException e) {
-                    e.printStackTrace();
+                    Log.e(TAG, e.toString());
                 }
 
                 jsonlist.add(jsonObject);
@@ -242,7 +254,7 @@ public class CreateListActivty extends AppCompatActivity {
             try {
                 prepareJson.put(VK_MESSAGE_IDENTIFIER,jsonlist);
             } catch (JSONException e) {
-                e.printStackTrace();
+                Log.e(TAG, e.toString());
             }
             final VKRequest vkRequest = new VKRequest("messages.send", VKParameters.from(VKApiConst.USER_ID, userId ,VKApiConst.MESSAGE, prepareJson.toString()));
             vkRequest.executeWithListener(new VKRequest.VKRequestListener() {
@@ -253,6 +265,7 @@ public class CreateListActivty extends AppCompatActivity {
 
                     CreateListActivty.this.finish();
                     Toast.makeText(CreateListActivty.this, R.string.send_success, Toast.LENGTH_LONG).show();
+                    Log.d(TAG,"list send");
 
                 }
 

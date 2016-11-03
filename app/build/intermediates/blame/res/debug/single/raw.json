@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
-        "source": "/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.0/res/raw/gtm_analytics"
+        "merged": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/Users/Snach/Desktop/TP/3/Android/VkShopLIst/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.0.0/res/raw/gtm_analytics"
     }
 ]

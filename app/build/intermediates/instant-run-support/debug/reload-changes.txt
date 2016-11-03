@@ -1,3 +1,0 @@
-CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/VkApplication$1$override.class
-CHANGED,/home/sfilatov96/AndroidStudioProjects/VkShopList/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/vkshoplist/sfilatov96/vkshoplist/VkApplication$override.class

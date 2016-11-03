@@ -19,6 +19,8 @@ import com.vk.sdk.VKSdk;
  */
 public class VkApplication extends SugarApp {
     private Tracker mtracker;
+    private final static String TAG = VkApplication.class.getSimpleName();
+
 
     VKAccessTokenTracker vkAccessTokenTracker = new VKAccessTokenTracker() {
         @Override
@@ -30,7 +32,7 @@ public class VkApplication extends SugarApp {
             }
         }
     };
-    String TAG = "VkApplication";
+
     @Override
     public void onCreate() {
 

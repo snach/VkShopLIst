@@ -19,6 +19,8 @@ import android.widget.Toast;
  */
 public class AddItemDialog extends DialogFragment {
     View view;
+    private final static String TAG = AddItemDialog.class.getSimpleName();
+
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -60,6 +62,7 @@ public class AddItemDialog extends DialogFragment {
                         ((CreateListActivty) getActivity()).FillShopList(name_input.getText().toString(), quanity_input.getText().toString(),
                                 spinner.getSelectedItem().toString());
                         AddItemDialog.this.getDialog().dismiss();
+
                     }
                 }
             });
